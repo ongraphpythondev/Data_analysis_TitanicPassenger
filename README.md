@@ -17,8 +17,9 @@ pip install -r requirements.txt
 python3 -W ignore titanic_da.py
 
 
-Objective : 
- To find if any pattern for the survival of the passengers of the titanic
+<br><h1>Objective : </h1><br>
+
+To find if any pattern for the survival of the passengers of the titanic
  
 Hypothesis : 
   1) socioeconomic status affects the survival rate of passenger
@@ -28,7 +29,35 @@ Hypothesis :
 note : The above hypothesis will be rejected based on the confidence interval of the tests done of the data.
        Confidence interval used is 0.95 thus the pvalue of the tests should be less than 0.05 to be rejected.
 
-Data Dictonary:
+Tests Used:
+
+- chi square for testing weather socioeconomic status and gender of passenger was somehow related to the survival of the passenger
+- ANOVA (f test) and chi square for testing weather age of passenger was somehow related to the survival of the passenger
+
+Conclusion:
+  There are 177 missing values in the Age column. Assuming these values are missing at random for now we can conclude by help of preforming ANOVA test that :    
+
+  <h2>- age did matter for survival</h2>
+
+  We can further solidify this conclusion by taking the title (ex. Mr,Mrs etc.) of the passanger as a hint for which age group they belong to
+    1) Mr and Mrs - Adult
+    2) Miss and Master - Young
+    3) Dr etc - Other
+    
+  Note : The graph showing the distribution of ages according to the passenger's title is saved in "agegroup.png". 
+         This graph clearly shows seperation between ages of different titles accordingly thus we can say that title acts as proxy for age
+
+  Now by preforming chi square test we can infer the following.  
+
+  <h2>- age and survival are dependent</h2> 
+
+  By preforming chi square test on our data we can conclude : 
+
+  <h2>- gender and survival are dependent</h2>
+  <h2>- socioeconomic status and survival are dependent</h2>
+
+
+</h2>Data Dictonary:</h2>
 
 Variable   |	Definition				   |	Key
 :---:|:---:|:---:|
