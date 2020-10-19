@@ -43,14 +43,6 @@ def data_summary(x):
 
 descript = _titanic_data.select_dtypes(['int64','float64']).apply(data_summary).T
 
-# survived_vs_gender = sns.countplot("Survived", hue="Sex",data=_titanic_data)
-# fig1 = survived_vs_gender.get_figure()
-# fig1.savefig('survived_vs_gender.png')
-
-# survived_vs_pclass = sns.countplot("Survived", hue="Pclass",data=_titanic_data)
-# fig2 = survived_vs_pclass.get_figure()
-# fig2.savefig('survived_vs_pclass.png')
-
 Survived_data = _titanic_data[_titanic_data['Survived'] == 1]
 deceased_data = _titanic_data[_titanic_data['Survived'] == 0]
 
