@@ -1,4 +1,10 @@
 # TitanicPassenger
+# Data Analysis:
+Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making<br><br>
+Two methods are used for analysis in this project:<br> <br>
+ANOVA : Analysis of variance is a collection of statistical models and their associated estimation procedures used to analyze the differences among group means in a sample<br><br>
+Chi-squared :  Pearson's chi-squared test is used to determine whether there is a statistically significant difference between the expected frequencies and the observed frequencies in one or more categories of a contingency table
+
 <br><h1>Prerequisites:</h1><br>
 You will need the following programmes properly installed on your computer.<br>
 Python 3.7+ <br>
