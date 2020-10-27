@@ -1,4 +1,4 @@
-# TitanicPassenger
+# Data_analysis_TitanicPassenger
 # Data Analysis:
 Data analysis is a process of inspecting, cleansing, transforming and modeling data with the goal of discovering useful information, informing conclusions and supporting decision-making<br><br>
 Two methods are used for analysis in this project:<br> <br>
